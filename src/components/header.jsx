@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import { IoSearchSharp } from "react-icons/io5";
+import { GrFavorite } from "react-icons/gr";
+import { BsCart2 } from "react-icons/bs";
 const Header = () => {
-    
   return (
     <nav className="w-full inset-x-0 top-0 z-50 container shadow-md md:shadow-none">
       <div className="flex items-center z-0 py-3 md:py-6">
@@ -21,6 +23,15 @@ const Header = () => {
         <Link className="justify-center">
           <img src="assets/images/logo.svg" alt="logo" />
         </Link>
+        <div className="flex">
+          <IoSearchSharp />
+          <GrFavorite />
+          <BsCart2 />
+        </div>
+        <div>
+          <img src="assets/icons/Admin.svg" alt="admin-icon" />
+
+        </div>
       </div>
     </nav>
   );

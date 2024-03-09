@@ -1,3 +1,191 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: Abril Display;
+    font-style: italic;
+    font-weight: 400;
+    src: url("../public/assets/fonts/Abril/Abril_Display_Italic.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril Display;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../public/assets/fonts/Abril/Abril_Display_Regular.otf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: Abril Display;
+    font-style: normal;
+    font-weight: 600;
+    src: url("../public/assets/fonts/Abril/Abril_Display_SemiBold.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril Display;
+    font-style: italic;
+    font-weight: 600;
+    src: url("../public/assets/fonts/Abril/Abril_Display_SemiBoldItalic.otf") format("truetype");
+  }
+@font-face {
+    font-family: Abril Display;
+    font-style: normal;
+    font-weight: 700;
+    src: url("../public/assets/fonts/Abril/Abril_Display_Bold.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril Display;
+    font-style: italic;
+    font-weight: 700;
+    src: url("../public/assets/fonts/Abril/Abril_Display_BoldItalic.otf") format("truetype");
+  }
+@font-face {
+    font-family: Abril Display;
+    font-style: normal;
+    font-weight: 800;
+    src: url("../public/assets/fonts/Abril/Abril_Display_ExtraBold.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril Display;
+    font-style: italic;
+    font-weight: 800;
+    src: url("../public/assets/fonts/Abril/Abril_Display_ExtraBoldItalic.otf") format("truetype");
+  }
+@font-face {
+    font-family: Abril Display;
+    font-style: normal;
+    font-weight: 900;
+    src: url("../public/assets/fonts/Abril/Abril_Display_Black.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril Display;
+    font-style: italic;
+    font-weight: 900;
+    src: url("../public/assets/fonts/Abril/Abril_Display_BlackItalic.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../public/assets/fonts/Abril/Abril_Fatface.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril Fatface;
+    font-style: italic;
+    font-weight: 400;
+    src: url("../public/assets/fonts/Abril/Abril_Fatface_Italic.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril-Text;
+    font-style: italic;
+    font-weight: 400;
+    src: url("../public/assets/fonts/Abril/Abril_Text_Italic.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril-Text;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../public/assets/fonts/Abril/Abril_Text_Regular.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril-Text;
+    font-style: italic;
+    font-weight: 700;
+    src: url("../public/assets/fonts/Abril/Abril_Text_BoldItalic.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril-Text;
+    font-style: normal;
+    font-weight: 700;
+    src: url("../public/assets/fonts/Abril/Abril_Text_Bold.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril-Text;
+    font-style: italic;
+    font-weight: 800;
+    src: url("../public/assets/fonts/Abril/Abril_Text_ExtraBoldItalic.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril-Text;
+    font-style: italic;
+    font-weight: 800;
+    src: url("../public/assets/fonts/Abril/Abril_Text_ExtraBold.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril-Text;
+    font-style: italic;
+    font-weight: 600;
+    src: url("../public/assets/fonts/Abril/Abril_Text_SemiBoldItalic.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Abril-Text;
+    font-style: normal;
+    font-weight: 600;
+    src: url("../public/assets/fonts/Abril/Abril_Text_SemiBold.otf") format("truetype");
+  }
+  @font-face {
+    font-family: Bakilda;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../public/assets/fonts/Bakilda/bakilda-histori.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Value Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    src: url("../public/assets/fonts/Value_Sans_Pro/ValueSansPro-Black.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Value Sans Pro;
+    font-style: italic;
+    font-weight: 900;
+    src: url("../public/assets/fonts/Value_Sans_Pro/ValueSansPro-BlackItalic.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Value Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    src: url("../public/assets/fonts/Value_Sans_Pro/ValueSansPro-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Value Sans Pro;
+    font-style: italic;
+    font-weight: 700;
+    src: url("../public/assets/fonts/Value_Sans_Pro/ValueSansPro-BoldItalic.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Value Sans Pro;
+    font-style: italic;
+    font-weight: 400;
+    src: url("../public/assets/fonts/Value_Sans_Pro/ValueSansPro-Italic.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Value Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../public/assets/fonts/Value_Sans_Pro/ValueSansPro-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Value Sans Pro;
+    font-style: normal;
+    font-weight: 500;
+    src: url("../public/assets/fonts/Value_Sans_Pro/ValueSansPro-Medium.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Value Sans Pro;
+    font-style: italic;
+    font-weight: 500;
+    src: url("../public/assets/fonts/Value_Sans_Pro/ValueSansPro-MediumItalic.ttf") format("truetype");
+  }
+  
+@layer base{
+  h2{
+    @apply text-white md:text-6xl text-2xl leading-[90px] font-normal text-center;
+  }
+  
+  h4{
+    @apply md:text-3xl text-xl font-bold leading-[40px];
+  }
+}
+

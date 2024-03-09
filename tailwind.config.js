@@ -12,7 +12,12 @@ module.exports = {
         
       },
       fontFamily: {
-        sans: ['"Outfit"', ...defaultTheme.fontFamily.sans],
+        // sans: ['"Outfit"', ...defaultTheme.fontFamily.sans],
+        'abril-display': ['Abril Display'],
+        'abril-text': ['Abril-Text'],
+        'abril-fatface': ['Abril Fatface'],
+        'bakilda': ['Bakilda'],
+        'value-sans-pro': ['Value Sans Pro']
       },
       screens: {
         lg: "1200px",
@@ -25,7 +30,8 @@ module.exports = {
     colors: {
       white: "#FFFFFF",
       FloralWhite: "#FFFAF2",
-      RootBrew: "#270A05"
+      RootBrew: "#270A05",
+      Redorange: "#86371C"
       
     },
   },
