@@ -31,7 +31,8 @@ module.exports = {
       white: "#FFFFFF",
       FloralWhite: "#FFFAF2",
       RootBrew: "#270A05",
-      Redorange: "#86371C"
+      Redorange: "#86371C",
+      EerieBlack: "#101113"
       
     },
   },
