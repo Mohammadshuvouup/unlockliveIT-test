@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <section className="container py-20">
+      <section className="container pt-10 md:py-20">
         <Slider
           slidesPerView={1}
           spaceBetween={30}
@@ -19,16 +19,16 @@ const HomePage = () => {
             sliderData.length > 0 &&
             sliderData.map((value, key) => {
               return (
-                <SwiperSlide className="h-auto">
+                <SwiperSlide key={key} className="h-auto">
                   <div className="grid grid-cols-12 gap-4">
                     <div className="col-span-full md:col-span-7">
                       <h3 className="text-base text-start font-medium text-RootBrew font-bakilda">
                         {value.welcome}
                       </h3>
-                      <h1 className="text-8xl text-start  text-RootBrew font-bakilda font-normal mt-6">
+                      <h1 className="lg:text-8xl md:text-6xl text-4xl text-start  text-RootBrew font-bakilda font-normal mt-6">
                         {value.heading}
                       </h1>
-                      <h2 className="text-4xl text-start  font-normal font-bakilda text-RootBrew mt-6">
+                      <h2 className="lg:text-4xl text-2xl text-start  font-normal font-bakilda text-RootBrew mt-6">
                         {value.heading2}
                       </h2>
                       <p className="text-base text-start  text-RootBrew/60 font-normal font-value-sans-pro leading-[27.2px] mt-8">
@@ -47,17 +47,17 @@ const HomePage = () => {
               );
             })}
         </Slider>
-        <div className="flex text-center">
+        <div className="flex text-center mt-8">
           <button className="bg-Redorange py-4 px-8 text-white font-value-sans-pro rounded-xl text-base font-medium">
             EXPLORE OUR MENU
           </button>
-          <img src="assets/images/coffe1.svg" alt="img" />
-          <img src="assets/images/coffe2.svg" alt="img" />
-          <img src="assets/images/coffe3.svg" alt="img" />
+          <img src="assets/images/coffe1.svg" className="ml-8" alt="img" />
+          <img src="assets/images/coffe2.svg" className="-ml-6" alt="img" />
+          <img src="assets/images/coffe3.svg" className="-ml-6" alt="img" />
         </div>
       </section>
-      <section className="bg-FloralWhite">
-        <div className="flex justify-between container items-center md:h-[230px]">
+      <section className="bg-FloralWhite mt-10 md:mt-[unset]">
+        <div className="flex md:flex-row flex-col justify-between container items-center md:h-[230px]">
           <div className="bg-Redorange p-8 rounded-b-xl">
             <img className="" src="assets/images/playline.svg" alt="img" />
             <div className="flex items-center">
@@ -67,7 +67,7 @@ const HomePage = () => {
               </h3>
             </div>
           </div>
-          <div className="">
+          <div className="md:mt-0 mt-4">
             <h3 className="font-abril-display text-RootBrew font-semibold text-2xl">
               Our Opening Hours
             </h3>
@@ -78,7 +78,7 @@ const HomePage = () => {
               Only Sun: 09:00 - 14:00
             </p>
           </div>
-          <div>
+          <div className="md:mt-0 mt-4">
             <h3 className="font-abril-display text-RootBrew font-semibold text-2xl">
               Our Live Location
             </h3>
@@ -89,7 +89,7 @@ const HomePage = () => {
               New York, UK
             </p>
           </div>
-          <div>
+          <div className="md:mt-0 mt-4">
             <h3 className="font-abril-display text-RootBrew font-semibold text-2xl">
               Book A Table Now
             </h3>
@@ -118,26 +118,26 @@ const HomePage = () => {
               </p>
               <div className="grid grid-cols-3 gap-4 mt-6">
                 <div className="col-span-full md:col-span-1 border-solid border-2 border-RootBrew/10 rounded-[10px] py-6">
-                  <h2 className="text-RootBrew font-bakilda text-5xl font-normal">
+                  <h2 className="text-RootBrew font-bakilda lg:text-5xl text-3xl font-normal">
                     20+
                   </h2>
-                  <p className="text-xl font-normal text-RootBrew items-center mt-4">
+                  <p className="lg:text-xl text-lg font-normal text-RootBrew items-center mt-4">
                     Years Experience
                   </p>
                 </div>
                 <div className="col-span-full md:col-span-1 border-solid border-2 border-RootBrew/10 rounded-[10px] py-6">
-                  <h2 className="text-RootBrew font-bakilda text-5xl font-normal">
+                  <h2 className="text-RootBrew font-bakilda lg:text-5xl text-3xl font-normal">
                     100+
                   </h2>
-                  <p className="text-xl font-normal text-RootBrew items-center mt-4">
+                  <p className="lg:text-xl text-lg font-normal text-RootBrew items-center mt-4">
                     Master Chefs
                   </p>
                 </div>
                 <div className="col-span-full md:col-span-1 border-solid border-2 border-RootBrew/10 rounded-[10px] py-6">
-                  <h2 className="text-RootBrew font-bakilda text-5xl font-normal">
+                  <h2 className="text-RootBrew font-bakilda lg:text-5xl text-3xl font-normal">
                     30+
                   </h2>
-                  <p className="text-xl font-normal text-RootBrew items-center mt-4">
+                  <p className="lg:text-xl text-lg font-normal text-RootBrew items-center mt-4">
                     Achievements
                   </p>
                 </div>
@@ -168,8 +168,8 @@ const HomePage = () => {
             Unlocklive Coffee Menu
           </h2>
           <div className="grid grid-cols-12 gap-4 mt-6">
-            <div className="col-span-full md:col-span-6">
-              <div className="items-center flex border-solid border-2 border-RootBrew/10 rounded-xl py-6 px-8">
+            <div className="col-span-full lg:col-span-6">
+              <div className="items-center md:flex-row flex-col flex border-solid border-2 border-RootBrew/10 rounded-xl py-6 px-8">
                 <img src="assets/images/menu1.svg" alt="img" />
                 <div className="px-4">
                   <h2 className="text-start text-2xl font-semibold font-abril-display text-RootBrew">
@@ -183,7 +183,7 @@ const HomePage = () => {
                   $10
                 </span>
               </div>
-              <div className="items-center flex border-solid border-2 border-RootBrew/10 py-6 px-8 rounded-xl mt-2">
+              <div className="items-center md:flex-row flex-col flex border-solid border-2 border-RootBrew/10 py-6 px-8 rounded-xl mt-2">
                 <img src="assets/images/menu2.svg" alt="img" />
                 <div className="px-4">
                   <h2 className="text-start text-2xl font-semibold font-abril-display text-RootBrew">
@@ -198,8 +198,8 @@ const HomePage = () => {
                 </span>
               </div>
             </div>
-            <div className="col-span-full md:col-span-6">
-              <div className="items-center flex border-solid border-2 border-RootBrew/10 py-6 px-8 rounded-xl">
+            <div className="col-span-full lg:col-span-6">
+              <div className="items-center md:flex-row flex-col flex border-solid border-2 border-RootBrew/10 py-6 px-8 rounded-xl">
                 <img src="assets/images/menu3.svg" alt="img" />
                 <div className="px-4">
                   <h2 className="text-start text-2xl font-semibold font-abril-display text-RootBrew">
@@ -213,7 +213,7 @@ const HomePage = () => {
                   $10
                 </span>
               </div>
-              <div className="items-center flex rounded-xl border-solid border-2 border-RootBrew/10 py-6 px-8 mt-2">
+              <div className="items-center md:flex-row flex-col flex rounded-xl border-solid border-2 border-RootBrew/10 py-6 px-8 mt-2">
                 <img src="assets/images/menu4.svg" alt="img" />
                 <div className="px-4">
                   <h2 className="text-start text-2xl font-semibold font-abril-display text-RootBrew">
